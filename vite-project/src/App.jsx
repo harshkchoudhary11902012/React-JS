@@ -1,5 +1,11 @@
+import Demo from "./demo";
 function App() {
-	return <h1>React with Vite | Harsh Kr Choudhary</h1>;
+	return (
+		<>
+			<Demo />
+			<h1>Vite + React</h1>
+			<p>Using React Js and Vite together to build a website application</p>
+		</>
+	);
 }
-
 export default App;
